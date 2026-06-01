@@ -1,0 +1,12 @@
+[package]
+name = "lau-trace-monoid"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-trace-monoid"
+description = "Mazurkiewicz trace monoids, right-angled Artin groups, and CRDT lattice structures for concurrent computation"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+serde_json = "1"
